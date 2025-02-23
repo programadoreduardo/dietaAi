@@ -10,8 +10,15 @@ export default function RootLayout() {
         }}
       />
 
-<Stack.Screen
+      <Stack.Screen
         name="step/index"
+        options={{
+          headerShown: false
+        }}
+      />
+
+      <Stack.Screen
+        name="create/index"
         options={{
           headerShown: false
         }}
